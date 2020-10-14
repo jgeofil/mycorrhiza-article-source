@@ -22,7 +22,7 @@
 \DeclareOption{noinfo}{\PassOptionsToPackage{noinfo}{crop}}
 \DeclareOption{final}{\global\@finaltrue}
 
-\ExecuteOptions{b4paper,crop,centre,info}
+\ExecuteOptions{b4paper,crop,centre,info,final,openany}
 
 \ProcessOptions
 
@@ -880,12 +880,6 @@
 % **********
 % Appendix *
 % **********
-\newif\ifappend % Are we in the Appendix?
-\def\appendix{\par
-        \setcounter{section}{0}
-        \setcounter{subsection}{0}
-        \appendtrue
-}
 
 %Math parameters
 
