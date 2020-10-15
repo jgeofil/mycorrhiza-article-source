@@ -3,6 +3,8 @@ Jeremy Georges-Filteau,  Richard C Hamelin,  Mathieu Blanchette
 Bioinformatics, Volume 36, Issue 1, 1 January 2020, Pages 212–220, https://doi.org/10.1093/bioinformatics/btz476
 Published: 14 June 2019
 
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=jgeofil&repo=mycorrhiza-algorithm)](https://github.com/jgeofil/mycorrhiza-algorithm)
+
 ## Abstract
 Motivation
 The genotype assignment problem consists of predicting, from the genotype of an individual, which of a known set of populations it originated from. The problem arises in a variety of contexts, including wildlife forensics, invasive species detection and biodiversity monitoring. Existing approaches perform well under ideal conditions but are sensitive to a variety of common violations of the assumptions they rely on.
