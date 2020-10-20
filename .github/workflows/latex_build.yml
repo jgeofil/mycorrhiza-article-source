@@ -26,8 +26,9 @@ jobs:
         uses: dante-ev/latex-action@v0.2.0
         with:
           # The root LaTeX file to be compiled
-          root_file: GITHUB_WORKSPACE/main.tex
+          root_file: main.tex
           # The working directory for the latex compiler to be invoked
+          working-directory: ./
           # LaTeX engine to be used
           compiler: latexmk
           # Extra arguments to be passed to the latex compiler
